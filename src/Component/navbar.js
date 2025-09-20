@@ -89,19 +89,33 @@ export class navbar extends Component {
                 </li>
                
               </ul>
-              <form className="d-flex" role="search" onSubmit={this.handleSubmit}>
-                <input
-                  className="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                  value={this.state.search}
-                  onChange={this.handleIput}
-                />
-                <button className="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
+              <div className="d-flex align-items-center">
+                <div className="form-check form-switch me-3">
+                  <input 
+                    className="form-check-input" 
+                    type="checkbox" 
+                    id="darkModeToggle"
+                    checked={this.props.isDarkMode}
+                    onChange={this.props.toggleDarkMode}
+                  />
+                  <label className="form-check-label" htmlFor="darkModeToggle">
+                    {this.props.isDarkMode ? '🌙' : '☀️'}
+                  </label>
+                </div>
+                <form className="d-flex" role="search" onSubmit={this.handleSubmit}>
+                  <input
+                    className="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                    value={this.state.search}
+                    onChange={this.handleIput}
+                  />
+                  <button className="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </nav>

@@ -1,0 +1,108 @@
+.dark-mode {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  min-height: 100vh;
+}
+
+.dark-mode h1 {
+  color: #ffffff !important;
+}
+
+.dark-mode .navbar {
+  background-color: #2d2d2d !important;
+  border-bottom: 1px solid #404040 !important;
+}
+
+.dark-mode .navbar-brand {
+  color: #ffffff !important;
+}
+
+.dark-mode .nav-link {
+  color: #ffffff !important;
+}
+
+.dark-mode .nav-link:hover {
+  color: #cccccc !important;
+}
+
+.dark-mode .dropdown-menu {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+.dark-mode .dropdown-item {
+  color: #ffffff !important;
+}
+
+.dark-mode .dropdown-item:hover {
+  background-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .form-control {
+  background-color: #404040 !important;
+  border-color: #555555 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .form-control:focus {
+  background-color: #404040 !important;
+  border-color: #0d6efd !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.dark-mode .btn-outline-success {
+  color: #ffffff !important;
+  border-color: #198754 !important;
+}
+
+.dark-mode .btn-outline-success:hover {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .card {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .card-body {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .card-title {
+  color: #ffffff !important;
+}
+
+.dark-mode .card-text {
+  color: #cccccc !important;
+}
+
+.dark-mode .btn-primary {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+
+.dark-mode .btn-primary:hover {
+  background-color: #0b5ed7 !important;
+  border-color: #0a58ca !important;
+}
+
+.dark-mode .form-check-input:checked {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+
+.dark-mode .form-check-label {
+  color: #ffffff !important;
+}
+
+.light-mode {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  min-height: 100vh;
+}
