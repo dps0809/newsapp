@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import image from './image.png' 
 
-export class EmptyNewscard extends Component {
-  render() {
+const EmptyNewscard=()=>{
     return (
         <div className='container my-3'>
           <div className="card" aria-hidden="true">
@@ -24,6 +23,6 @@ export class EmptyNewscard extends Component {
           </div>
     )
   }
-}
+
 
 export default EmptyNewscard
